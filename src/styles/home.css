@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+
+:root {
+    --green: rgb(197, 219, 204);
+    --pink: rgb(222, 172, 175);
+    --hover: rgb(115, 141, 125);
+    --main-color: #2e3132;
+  }
+
+/* CTA Section */
+
+.cta-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.products a{
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.products a:hover{
+    color:  var(--hover);
+    cursor: pointer;
+}
+
+.products-img{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+}
+
+.store a{
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.store a:hover{
+    color: var(--hover);
+    cursor: pointer;
+}
+
+.store-img{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+}
+
+.story a{
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.story a:hover{
+    color: var(--hover);
+    cursor: pointer;
+}
+
+.story-img{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+/* About Section */
+
+/*Ingredients section*/
+.ingredients{
+    display: flex;
+  
+   
+}
+
+.box-green{
+   width: 40.7rem;
+   height: 42rem;
+   background-color: var(--green);
+   text-align: left;
+   display: flex;
+  
+}
+
+.ingredients-text{
+    padding: 4rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.ingredients-text h1{
+    font-style: italic;
+}
+
+.para1, .para2{
+    font-size: 20px;
+}
+
+.para2{
+    margin-top: 1.5rem;
+}
+
+
+.img{
+    width: 39.5rem;
+    height: 45rem;
+}
+
+.ingredients-btn{
+    font-family: 'Ysabeau Infant', sans-serif;
+    border: 1px solid black;
+    width: 6.5rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+}
+
+.ingredients-btn:hover{
+    color: white;
+    background-color: var(--hover);
+    border: none;
+}
+
+/*Vision section*/
+
+.vision-section{
+    display: flex;
+    text-align: left;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    margin-top: -4rem;
+}
+
+.vision-text{
+    padding: 4rem;
+}
+
+.box-pink{
+    width: 42rem;
+    height: 42rem;
+    background-color: var(--pink);
+    z-index: 1;
+    position: relative;
+}
+
+.vision-img{
+    margin-left: 39rem;
+    z-index: 3;
+    position: absolute;
+    width: 40rem;
+    height: 42rem;
+}
+
+.para3, .para4{
+    font-size: 20px;
+    font-style: normal;
+}
+
+.para3{
+    margin-top: 1.5rem;
+}
+
+.vision-btn{
+    font-family: 'Ysabeau Infant', sans-serif;
+    border: 1px solid black;
+    width: 6.5rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+}
+
+.vision-btn:hover{
+    color: white;
+    background-color: var(--hover);
+    border: none;
+}
+
+/*Social media section*/
+.social-media-section{
+    margin-top: 5rem;
+}
+
+.instagram-icon{
+    display: none;
+}
+
+.social-media-section h1{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.social-media-section h1 span:hover{
+   color: var(--hover);
+   cursor: pointer;
+}
+
+.social-media-content{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.social-media-content img{
+    width: 13rem;
+    height: 12rem;
+    margin-right: 2rem;
+}
+
+
+.sm-img-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 13rem;
+    height: 12rem;
+    background-color: var(--pink);
+    margin-top: -12.3rem;
+    margin-left: 0rem;
+    opacity: 0;
+    transition: all 0.7s ease;
+    z-index: 1;
+}
+
+.sm-img-hover h1{
+    cursor: pointer;
+    color: white;
+    z-index: 3;
+    margin-top: 12rem;
+}
+
+.sm-img-hover:hover{
+    opacity: 0.5;
+  
+}
+
+.sm-img-hover .insta{
+    position: absolute;
+   font-size: 3rem;
+    color: white;
+   margin-left: 0.2rem;
+   margin-top: 0rem;
+   z-index: 3;
+   opacity:1;
+   cursor: pointer;
+}
+
+.spacer{
+    border: 1px solid black;
+    margin: 2rem;
+    width: 26rem;
+}
+
+.image-slider-mobile{
+    display: none;
+}
+
+
+/* Responsive */
+
+@media (max-width: 500px) {
+    .cta-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+
+    .products{
+        margin-bottom: 3rem;
+    }
+
+    .products a{
+        font-size: 18px;
+        margin-top: -0.5rem;
+    }
+
+    .store{
+        margin-bottom: 3rem;
+    }
+
+    .store a{
+        font-size: 18px;
+    }
+
+    .story{
+        margin-bottom: 3rem;
+    }
+
+    .story a{
+        font-size: 18px;
+        margin-top: -1rem;
+    }
+
+    .ingredients img{
+        display: none;
+    }
+
+    .box-green{
+        width: 25.8rem;
+        height: 45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ingredients-text h1{
+        font-size: 30px;
+        margin-left: 1.4rem;
+    }
+
+    .spacer{
+        width: 15rem;
+        margin-left: 1.4rem;
+        
+    }
+
+    .para1, .para2{
+        font-size: 18px;
+        width: 16rem;
+        margin-left: 1.4rem;
+    }
+
+    .ingredients-btn{
+        font-size: 20px;
+        width: 11rem;
+        height: 3rem;
+        color: white;
+        background-color: var(--hover);
+        border: none;
+        margin-top: 2.5rem;
+        margin-left: 3rem;
+    }
+
+    .box-pink{
+        width: 25.8rem;
+        height: 47rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .vision-img{
+        display: none;
+    }
+
+    .vision-text h1{
+        font-size: 30px;
+        margin-left: 1.4rem;
+    }
+    
+    .para3, .para4{
+        font-size: 18px;
+        width: 16rem;
+        margin-left: 1.4rem;
+    }
+
+    .vision-btn{
+        font-size: 20px;
+        width: 11rem;
+        height: 3rem;
+        color: white;
+        background-color: var(--main-color);
+        border: none;
+        margin-top: 2.5rem;
+        margin-left: 3rem;
+    }
+
+    .social-media-content{
+        display: none;
+    }
+
+    .image-slider-mobile{
+        display: flex;
+    }
+    
+    .social-media-section h1 span{
+        color: var(--hover);
+    }
+
+    .instagram-icon{
+        display: inline-flex;
+        margin-bottom: 1.5rem;
+        font-size: 55px;
+        color: var(--pink);
+    }
+}

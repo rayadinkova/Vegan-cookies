@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+
+:root {
+    --green: rgb(197, 219, 204);
+    --pink: rgb(222, 172, 175);
+    --hover: rgb(115, 141, 125);
+    --main-color: #2e3132;
+  }
+
+  .cart-msg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+    align-items: center;
+  }
+  
+  .cart-msg h1{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.continue-shopping{
+  display: flex;
+  margin-left: 0.2rem;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 18px;
+  
+}
+
+.continue-shopping a{
+    display: flex;
+    margin-left: 0.2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.continue-shopping a:hover{
+  color: var(--hover);
+  cursor: pointer;
+}
+
+.continue-shopping:hover{
+    color: var(--hover);
+    cursor: pointer;
+}
+
+.right-arrow{
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}

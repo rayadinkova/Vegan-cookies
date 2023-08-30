@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+
+:root {
+    --hover: rgb(115, 141, 125);
+    --green: rgb(197, 219, 204);
+    --main-color: #2e3132;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem 1rem 2rem;
+    margin-top: 5rem;
+}
+
+.email-section{
+    align-items: center;
+    text-align: right;
+}
+
+.email-section h1{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.email-button{
+    width: 7rem;
+    height: 3rem;
+    background-color: var(--green);
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 15px;
+}
+
+.email-button:hover{
+    color: white;
+    background-color: var(--hover);
+    border: none;
+    
+}
+
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.logo-section{
+    margin-left: -1.5rem;
+}
+
+.logo-section img{
+    width: 60px;
+    height: 60px;
+   
+}
+
+.logo-section h1{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-section{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section a{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.contact-section a:hover{
+    color: var(--hover);
+    cursor: pointer;
+}
+
+.social-media{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.facebook{
+    font-size: 28px;
+    margin-right: 5px;
+    color: var(--hover);
+}
+
+.facebook:hover{
+    color: black;
+}
+
+.pinterest{
+    font-size: 28px;
+    margin-right: 7px;
+    color: var(--hover);
+}
+
+.pinterest:hover{
+    color: black;
+}
+
+.instagram{
+    font-size: 28px;
+    margin-right: 5px;
+    color: var(--hover);
+}
+
+.instagram:hover{
+    color: black;
+}
+
+
+
+.copyright{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 13px;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.home-link{
+    text-decoration: none;
+    color: var(--main-color);
+}
+

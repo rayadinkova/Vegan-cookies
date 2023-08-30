@@ -1,0 +1,23 @@
+
+:root{
+    --main-color: #2e3132;
+    --hover: rgb(115, 141, 125);
+    --btns-hover: rgb(174, 186, 178);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    align-items: center;
+    border: 1.4px solid var(--main-color);
+    width: 6rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btns:hover{
+    color: var(--main-color);
+    background-color: var(--btns-hover);
+    border: 1.4px solid var(--main-color);
+}

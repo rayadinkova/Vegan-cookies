@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Darumadrop One';
+}
+
+:root {
+    --main-color: #2e3132;
+    --hover: rgb(115, 141, 125);
+  }
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem 1rem 2rem;
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo-title{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navigation-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navigation-items li{
+    list-style: none;
+    margin-right: 3rem;
+    text-decoration: none;
+   
+}
+
+.text-style-home{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.text-style{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.text-style:hover{
+    color: var(--hover);
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5rem;
+    align-items: center;
+}
+
+.cart-button{
+    width: 6rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid var(--hover);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-button h1{
+    font-size: 15px;
+    font-family: 'Darumadrop One';
+    
+}
+
+.cart-button:hover{
+    border: 1px solid var(--hover);
+    background-color: var(--hover);
+    color: white;
+}
+
+.cart-icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+

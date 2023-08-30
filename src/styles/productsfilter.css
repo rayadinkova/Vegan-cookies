@@ -1,0 +1,24 @@
+:root{
+    --hover: rgb(115, 141, 125);
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.all{
+    margin-right: 1rem;
+}
+
+.pastries{
+    margin-left: 1rem;
+}
